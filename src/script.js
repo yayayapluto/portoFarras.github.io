@@ -1,13 +1,13 @@
 //PROJECT START
 const projects =[
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
-    {"img":"../assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
+    {"img":"assets/project/example.png", 'title':'Example', 'techstack':'lorem, ipsum, womp, womp'},
 ]
 const projectContainer = document.getElementById("project-container");
 projects.forEach(project => {
@@ -28,10 +28,10 @@ projects.forEach(project => {
 //SKILL START
 //LANGUANGE START
 const languanges = [
-    '../assets/icons/php.svg',
-    '../assets/icons/js.svg',
-    '../assets/icons/pyhton.svg',
-    '../assets/icons/java.svg',
+    'assets/icons/php.svg',
+    'assets/icons/js.svg',
+    'assets/icons/pyhton.svg',
+    'assets/icons/java.svg',
 ]
 const languangeContainer = document.getElementById("languange");
 languanges.forEach(languange => {
@@ -43,8 +43,8 @@ languanges.forEach(languange => {
 //LANGUANGE END
 //FRAMEWORK START
 const frameworks = [
-    '../assets/icons/laravel.svg',
-    '../assets/icons/tailwind.svg',
+    'assets/icons/laravel.svg',
+    'assets/icons/tailwind.svg',
 ]
 const frameworkContainer = document.getElementById("framework");
 frameworks.forEach(framework => {
@@ -56,7 +56,7 @@ frameworks.forEach(framework => {
 //FRAMEWORK END
 //DATABASE START
 const databases = [
-    '../assets/icons/mysql.svg',
+    'assets/icons/mysql.svg',
 ]
 const databaseContainer = document.getElementById("dbms");
 databases.forEach(database => {
@@ -70,7 +70,7 @@ databases.forEach(database => {
 
 //DOWNLOAD CV START
 function downloadPDF() {
-    const pdfUrl = '../assets/portofolio.pdf';
+    const pdfUrl = 'assets/portofolio.pdf';
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'file_name.pdf';
